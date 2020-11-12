@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'bungeeregular';
+    src: url('assets/bungee-regular-webfont.woff2') format('woff2'),
+         url('assets/bungee-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'grenze_gotischregular';
+    src: url('assets/grenzegotisch-variablefont_wght-webfont.woff2') format('woff2'),
+         url('assets/grenzegotisch-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poiret_oneregular';
+    src: url('assets/poiretone-regular-webfont.woff2') format('woff2'),
+         url('assets/poiretone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rokkittregular';
+    src: url('assets/rokkitt-variablefont_wght-webfont.woff2') format('woff2'),
+         url('assets/rokkitt-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'shrikhandregular';
+    src: url('assets/shrikhand-regular-webfont.woff2') format('woff2'),
+         url('assets/shrikhand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'staatlichesregular';
+    src: url('assets/staatliches-regular-webfont.woff2') format('woff2'),
+         url('assets/staatliches-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'vollkornitalic';
+    src: url('assets/vollkorn-italic-variablefont_wght-webfont.woff2') format('woff2'),
+         url('assets/vollkorn-italic-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'vollkornregular';
+    src: url('assets/vollkorn-variablefont_wght-webfont.woff2') format('woff2'),
+         url('assets/vollkorn-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
