@@ -1,0 +1,332 @@
+@font-face {
+    font-family: "Fira Code";
+    src: url(assets/FiraCode-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(assets/Montserrat-Thin.ttf);
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(assets/Montserrat-ThinItalic.ttf);
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(assets/Montserrat-ExtraLight.ttf);
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(assets/Montserrat-ExtraLightItalic.ttf);
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(assets/Montserrat-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(assets/Montserrat-LightItalic.ttf);
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(assets/Montserrat-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(assets/Montserrat-Italic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(assets/Montserrat-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(assets/Montserrat-MediumItalic.ttf);
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(assets/Montserrat-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(assets/Montserrat-SemiBoldItalic.ttf);
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(assets/Montserrat-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(assets/Montserrat-BoldItalic.ttf);
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(assets/Montserrat-ExtraBold.ttf);
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(assets/Montserrat-ExtraBoldItalic.ttf);
+    font-weight: 800;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(assets/Montserrat-Black.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(assets/Montserrat-BlackItalic.ttf);
+    font-weight: 900;
+    font-style: italic;
+}
+
+body {
+    background-color: rgb(41, 41, 41);
+}
+
+#header-div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    width: 75%;
+}
+
+h1 {
+    font-family: "Montserrat", monospace;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 4em;
+    text-align: center;
+    color: whitesmoke;
+    margin: .25em auto .2em;
+    ;
+}
+.header-span {
+    color: rgb(255, 227, 68);
+}
+#subtitle {
+    font-family: "Fira Code", monospace;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1em;
+    text-align: center;
+    color: whitesmoke;
+    margin: 0 auto 2em;
+}
+#console {
+    background-color: grey;
+    margin: 1em;
+    height: 40em;
+    border-radius: .5em;
+}
+#game-info {
+    position: relative;
+    top: 1.75em;
+    background-color: rgb(66, 66, 66);
+    width: 87em;
+    height: 30em;
+    margin: auto;
+    border-radius: .5em;
+}
+#location-div {
+    display: flex;
+    position: relative;
+    top: 1em;
+    justify-content: space-between;
+    margin: 3em 2em 1em;
+    padding: 0;
+}
+#worldLocation {
+    display: block;
+    margin: 0;
+}
+#roomLocation {
+    display: block;
+    margin: 0;
+}
+.location-header {
+    font-family: "Fira Code", monospace;
+    font-size: 1.2em;
+    color: hsl(82, 40.8%, 60%);;
+    margin: 0;
+}
+#welcome-div {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    border-radius: .5em;
+    width: 83em;
+    height: 24em;
+    overflow-y: auto;
+}
+#text-div {
+    display: block;
+    position: relative;
+    background-color: rgb(55, 55, 55);
+    margin: 0 auto;
+    border-radius: .5em;
+    width: 83em;
+    height: 11em;
+    overflow-y: auto;
+}
+#description-div {
+    display: block;
+    position: relative;
+    top: 1em;
+    background-color: rgb(55, 55, 55);
+    margin: 0 1em 2em;
+    padding: 0 1em;
+    border-radius: .5em;
+    width: 83em;
+    height: 12em;
+    overflow-y: auto;
+}
+#action-response-div {
+    display: block;
+    position: relative;
+    background-color: rgb(55, 55, 55);
+    margin: 0 1em 2em;
+    padding: 0 1em;
+    border-radius: .5em;
+    width: 83em;
+    height: 12em;
+    overflow-y: auto;
+}
+#welcome-message {
+    font-size: 1.5em;
+    color: rgb(255, 227, 68);
+}
+.yggdrasil {
+    font-family: "Fira Code", monospace;
+    color: rgb(255, 227, 68);
+}
+.game-text {
+    font-family: "Montserrat", monospace;
+    font-size: 1.2em;
+    color: whitesmoke;
+    line-height: 1.6;
+    white-space: pre-line;
+    text-align: justify;
+}
+.character-text {
+    font-family: "Fira Code", monospace;
+    color: hsl(0, 40.8%, 60%);
+}
+.object-text {
+    font-family: "Fira Code", monospace;
+    color: hsl(248, 40.8%, 60%);
+}
+.location-text {
+    font-family: "Fira Code", monospace;
+    color: hsl(82, 40.8%, 60%);
+}
+.direction-text {
+    font-family: "Fira Code", monospace;
+    color: hsl(39, 40.8%, 60%);
+}
+.verb-text {
+    font-family: "Fira Code", monospace;
+    color: hsl(43, 74.4%, 49%);
+}
+#player-interface {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 3em;
+    background-color: rgb(66, 66, 66);
+    width: 87em;
+    height: 5em;
+    margin: auto;
+    border-radius: .5em;
+}
+#begin-div {
+    display: flex;
+    align-items: center;
+    margin: 0 2em;
+}
+#begin-button {
+    font-family: "Fira Code", monospace;
+    font-size: 1.75em;
+    width: 5em;
+    height: 1.6em;
+    background-color: hsl(43, 74.4%, 49%);
+    color: whitesmoke;
+    border-style: none;
+    border-radius: .25em;
+}
+#label-div {
+    display: flex;
+    align-items: center;
+    margin: 0 2em;
+}
+#input-div {
+    display: flex;
+    align-items: center;
+}
+#player-input {
+    font-family: "Fira Code", monospace;
+    padding: 0 1em;
+    margin: 0 0 0 1rem;
+    color: whitesmoke;
+    font-size: 1em;
+    border-radius: .5em;
+    width: 50em;
+    height: 3em;
+    border-style: none;
+    background-color: rgb(41, 41, 41);
+}
+#player-input:focus {
+    outline: none;
+}
+#submit-button:focus {
+    outline: none;
+}
+#submit-div {
+    display: flex;
+    align-items: center;
+    margin: 0 2em;
+}
+#submit-button {
+    background-color: goldenrod;
+    color: whitesmoke;
+    font-family: Montserrat;
+    font-size: 1em;
+    width: 5em;
+    height: 3em;
+    border-radius: .5em;
+    border-style: none;
+}
