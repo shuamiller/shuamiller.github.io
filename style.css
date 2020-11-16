@@ -65,4 +65,66 @@
 * {
     padding: 0;
     margin: 0;
+    font-weight: 100;
+}
+
+body {
+    background-color: rgb(17, 17, 17);
+    padding: 4%;
+}
+
+#title-div {
+    margin: 2em 0; 
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'grenze_gotischregular';
+    font-weight: 100;
+    font-size: 2em;
+}
+
+#nav-div {
+    display: flex;
+    align-items: center;
+    margin: 0 0 1em;
+}
+
+#question-mark {
+    color: whitesmoke;
+    background-color: rgb(17, 17, 17);
+    font-family: "staatlichesregular";
+    font-weight: 100;
+    font-size: 10em;
+}
+
+nav {
+    background-color: rgb(43, 57, 121);
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 2em;
+    border-radius: .5em;
+    height: 4em;
+}
+
+.nav-link {
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+    font-family: 'bungeeregular';
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+h2 {
+    color: whitesmoke;
+    font-family: 'staatlichesregular';
+    font-weight: 100;
+    font-size: 5em;
+    line-height: 1em;
+    text-align: right;
+}
+
+#sub-text {
+    font-size: 2em;
 }
