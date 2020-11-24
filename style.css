@@ -114,18 +114,49 @@
   }
 
   .div-bar {
-    height: 15px;
+    height: 1em;
     background-color: hsl(0, 0%, 25%);
   }
 
-  #bottom {
-    position: relative;
-    display: flex;
+  section {
+      padding: 3em;
   }
 
-  #bottom-text {
-    position: relative;
-    display: block;
-    text-align: center;
-    margin: 0px 15px 15px 15px;
+  .section-heading {
+      font-size: 3em;
+      margin-bottom: .75em;
+  }
+
+  #about-div {
+      display: flex;
+  }
+
+  #text-div {
+      margin-right: 5em;
+  }
+
+  .about-text {
+      font-size: 1.1em;
+      line-height: 1.25em;
+      margin-bottom: 1em;
+      text-align: justify;
+  }
+
+  #prof-heading {
+      font-size: 2em;
+      margin-bottom: .75em;
+  }
+
+  .prof-category {
+      font-size: 1.25em;
+      margin-bottom: .75em;
+  }
+
+  ul {
+      margin-bottom: 1.5em;
+  }
+
+  li {
+      font-size: .75em;
+      margin-bottom: .5em;
   }
