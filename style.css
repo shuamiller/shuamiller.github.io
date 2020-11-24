@@ -1,140 +1,130 @@
 @font-face {
-    font-family: 'bungeeregular';
-    src: url('assets/bungee-regular-webfont.woff2') format('woff2'),
-         url('assets/bungee-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+    src: url(assets/Heavitas.ttf);
+    font-family: heavitas;
+  }
 
-@font-face {
-    font-family: 'grenze_gotischregular';
-    src: url('assets/grenzegotisch-variablefont_wght-webfont.woff2') format('woff2'),
-         url('assets/grenzegotisch-variablefont_wght-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+  * {
+      padding: 0;
+      margin: 0;
+  }
 
-@font-face {
-    font-family: 'poiret_oneregular';
-    src: url('assets/poiretone-regular-webfont.woff2') format('woff2'),
-         url('assets/poiretone-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+  body {
+    height: auto;
+    width: auto;
+    background-color: hsl(0, 0%, 95%);
+    font-family: heavitas;
+  }
 
-@font-face {
-    font-family: 'rokkittregular';
-    src: url('assets/rokkitt-variablefont_wght-webfont.woff2') format('woff2'),
-         url('assets/rokkitt-variablefont_wght-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'shrikhandregular';
-    src: url('assets/shrikhand-regular-webfont.woff2') format('woff2'),
-         url('assets/shrikhand-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'staatlichesregular';
-    src: url('assets/staatliches-regular-webfont.woff2') format('woff2'),
-         url('assets/staatliches-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'vollkornitalic';
-    src: url('assets/vollkorn-italic-variablefont_wght-webfont.woff2') format('woff2'),
-         url('assets/vollkorn-italic-variablefont_wght-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'vollkornregular';
-    src: url('assets/vollkorn-variablefont_wght-webfont.woff2') format('woff2'),
-         url('assets/vollkorn-variablefont_wght-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    font-weight: 100;
-}
-
-body {
-    background-color: rgb(17, 17, 17);
-    padding: 4% 4% 4% 0;
-}
-
-#title-div {
-    margin: 2em 0; 
-}
-
-h1 {
-    color: whitesmoke;
-    text-align: center;
-    font-family: 'grenze_gotischregular';
-    font-weight: 100;
-    font-size: 2em;
-}
-
-#nav-div {
+  #navbar {
+    z-index: 2;
+    position: sticky;
     display: flex;
+    flex-direction: row;
+    height: 3.5em;
     align-items: center;
-    margin: 0 0 1em;
-}
+    background-color: hsl(0, 0%, 25%);
+  }
 
-#question-mark {
-    color: whitesmoke;
-    background-color: rgb(17, 17, 17);
-    font-family: "staatlichesregular";
-    font-weight: 100;
-    font-size: 10em;
-    text-align: center;
-    width: 2em;
-}
-
-nav {
-    background-color: rgb(43, 57, 121);
-    display: flex;
+  #home-name {
     position: relative;
-    align-items: center;
-    margin: 0 0 0 2em;
-    border-radius: .5em;
-    height: 4em;
-    right: 60em;
-    transition: right 2s;
-    z-index: -1;
-}
-
-.hovered-nav {
-    right: 0;
-}
-
-.nav-link {
-    color: rgb(17, 17, 17);
     text-decoration: none;
-    font-family: 'bungeeregular';
-    font-size: 1.5em;
-    margin: 1em;
-}
+    color: hsl(213, 73%, 65%);
+    font-size: 32.5px;
+    transition: color 1s;
+    margin: 6px 0 0 20px;
+  }
 
-h2 {
-    color: whitesmoke;
-    font-family: 'staatlichesregular';
-    font-weight: 100;
-    font-size: 5em;
-    line-height: 1em;
+  #home-name:hover {
+    color: hsl(0, 0%, 95%);
+  }
+
+  #main-links {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 4px 0 0;
+      width: 60em;
+  }
+
+  .nav-link {
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  #about-link {
+    display: block;
+    color: hsl(0, 0%, 95%);
+    transition: color 1s;
+  }
+
+  #about-link::first-letter {
+    color: hsl(275, 73%, 65%);
+  }
+
+  #about-link:hover {
+    color: hsl(275, 73%, 65%);
+  }
+
+  #projects-link {
+    display: block;
+    color: hsl(0, 0%, 95%);
+    transition: color 1s;
+  }
+
+  #projects-link::first-letter {
+    color: hsl(130, 73%, 65%);
+  }
+
+  #projects-link:hover {
+    color: hsl(130, 73%, 65%);
+  }
+  #contact-link {
+    display: block;
+    color: hsl(0, 0%, 95%);
+    transition: color 1s;
+  }
+
+  #contact-link::first-letter {
+    color: hsl(45, 73%, 50%);
+  }
+
+  #contact-link:hover {
+    color: hsl(45, 73%, 50%);
+  }
+
+  #intro {
+      margin: 10em 5em 10em 0;
+  }
+
+  #intro-heading {
+    position: relative;
+    font-size: 100px;
     text-align: right;
-}
+    color: hsl(0, 0%, 25%);
+  }
 
-#sub-text {
-    font-size: 2em;
-}
+  #sub-text {
+    position: relative;
+    display: block;
+    font-size: 40px;
+    text-align: right;
+    color: hsl(0, 0%, 25%);
+  }
+
+  .div-bar {
+    height: 15px;
+    background-color: hsl(0, 0%, 25%);
+  }
+
+  #bottom {
+    position: relative;
+    display: flex;
+  }
+
+  #bottom-text {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin: 0px 15px 15px 15px;
+  }
