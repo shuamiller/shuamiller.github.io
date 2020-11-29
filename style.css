@@ -187,6 +187,7 @@ li {
 }
 
 .projects-heading {
+  text-align: center;
   margin-bottom: 1em;
 }
 
@@ -195,4 +196,9 @@ li {
   border-radius: .5em;
   width: 12em;
   margin: auto;
+}
+
+#black-box {
+  height: 12em;
+  background-color: hsl(0, 0%, 25%);
 }
