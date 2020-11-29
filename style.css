@@ -131,26 +131,26 @@
       padding: 3em;
   }
 
-  .section-heading {
-      font-size: 3em;
-      margin-bottom: .5em;
-      color: hsl(213, 73%, 65%);
-  }
+.section-heading {
+  font-size: 3em;
+  margin-bottom: .5em;
+  color: hsl(213, 73%, 65%);
+}
 
-  .heading-span {
-      font-family: 'rokkittregular';
-      font-size: .75em;
-      font-weight: 100;
-      color: hsl(0, 0%, 25%);
-  }
+.heading-span {
+  font-family: 'rokkittregular';
+  font-size: .75em;
+  font-weight: 100;
+  color: hsl(0, 0%, 25%);
+}
 
-  #about-div {
-      display: flex;
-  }
+#about-div {
+  display: flex;
+}
 
-  #text-div {
-      margin-right: 5em;
-  }
+#text-div {
+  margin-right: 5em;
+}
 
 .about-text {
   font-family: 'rokkittregular';
@@ -190,8 +190,9 @@ li {
   margin-bottom: 1em;
 }
 
-#gallery-image {
+.project-image {
   display: block;
+  border-radius: .5em;
   width: 12em;
   margin: auto;
 }
