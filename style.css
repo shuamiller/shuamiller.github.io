@@ -152,31 +152,46 @@
       margin-right: 5em;
   }
 
-  .about-text {
-      font-family: 'rokkittregular';
-      font-size: 1.35em;
-      line-height: 1.25em;
-      margin-bottom: 1em;
-      text-align: justify;
-  }
+.about-text {
+  font-family: 'rokkittregular';
+  font-size: 1.35em;
+  line-height: 1.25em;
+  margin-bottom: 1em;
+  text-align: justify;
+}
 
-  #prof-heading {
-      font-size: 2em;
-      margin-top: .25em;
-      margin-bottom: .75em;
-  }
+#prof-heading {
+  font-size: 2em;
+  margin-top: .25em;
+  margin-bottom: .75em;
+}
 
-  .prof-category {
-      font-size: 1.25em;
-      margin-bottom: .5em;
-  }
+.prof-category {
+  font-size: 1.25em;
+  margin-bottom: .5em;
+}
 
-  ul {
-      margin-bottom: 1.5em;
-  }
+ul {
+  margin-bottom: 1.5em;
+}
 
-  li {
-    font-family: 'rokkittregular';
-    font-size: 1em;
-    margin-bottom: .25em;
-  }
+li {
+  font-family: 'rokkittregular';
+  font-size: 1em;
+  margin-bottom: .25em;
+}
+
+#projects-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects-heading {
+  margin-bottom: 1em;
+}
+
+#gallery-image {
+  display: block;
+  width: 12em;
+  margin: auto;
+}
