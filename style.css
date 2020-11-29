@@ -1,12 +1,12 @@
 @font-face {
-    src: url(fonts/assets/Heavitas.ttf);
+    src: url(assets/Fonts/Heavitas.ttf);
     font-family: heavitas;
   }
 
 @font-face {
     font-family: 'rokkittregular';
-    src: url('fonts/assets/rokkitt-variablefont_wght-webfont.woff2') format('woff2'),
-         url('fonts/assets/rokkitt-variablefont_wght-webfont.woff') format('woff');
+    src: url('assets/Fonts/rokkitt-variablefont_wght-webfont.woff2') format('woff2'),
+         url('assets/Fonts/rokkitt-variablefont_wght-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
