@@ -4,128 +4,128 @@
   }
 
 @font-face {
-    font-family: 'rokkittregular';
-    src: url('assets/Fonts/rokkitt-variablefont_wght-webfont.woff2') format('woff2'),
-         url('assets/Fonts/rokkitt-variablefont_wght-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'rokkittregular';
+  src: url('assets/Fonts/rokkitt-variablefont_wght-webfont.woff2') format('woff2'),
+      url('assets/Fonts/rokkitt-variablefont_wght-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
-  * {
-      padding: 0;
-      margin: 0;
-  }
+* {
+  padding: 0;
+  margin: 0;
+}
 
-  body {
-    height: auto;
-    width: auto;
-    background-color: hsl(0, 0%, 95%);
-    font-family: 'heavitas';
-  }
+body {
+  height: auto;
+  width: auto;
+  background-color: hsl(0, 0%, 95%);
+  font-family: 'heavitas';
+}
 
-  #navbar {
-    z-index: 2;
-    position: sticky;
-    top: 0;
-    display: flex;
-    flex-direction: row;
-    height: 3.5em;
-    align-items: center;
-    background-color: hsl(0, 0%, 25%);
-  }
+#navbar {
+  z-index: 2;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  height: 3.5em;
+  align-items: center;
+  background-color: hsl(0, 0%, 25%);
+}
 
-  #home-name {
-    position: relative;
-    text-decoration: none;
-    color: hsl(213, 73%, 65%);
-    font-size: 32.5px;
-    transition: color 1s;
-    margin: 6px 0 0 20px;
-  }
+#home-name {
+  position: relative;
+  text-decoration: none;
+  color: hsl(213, 73%, 65%);
+  font-size: 32.5px;
+  transition: color 1s;
+  margin: 6px 0 0 20px;
+}
 
-  #home-name:hover {
-    color: hsl(0, 0%, 95%);
-  }
+#home-name:hover {
+  color: hsl(0, 0%, 95%);
+}
 
-  #main-links {
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      margin: 4px 0 0;
-      width: 60em;
-  }
+#main-links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 4px 0 0;
+  width: 60em;
+}
 
-  .nav-link {
-    position: relative;
-    text-decoration: none;
-    font-size: 20px;
-  }
+.nav-link {
+  position: relative;
+  text-decoration: none;
+  font-size: 20px;
+}
 
-  #about-link {
-    display: block;
-    color: hsl(0, 0%, 95%);
-    transition: color 1s;
-  }
+#about-link {
+  display: block;
+  color: hsl(0, 0%, 95%);
+  transition: color 1s;
+}
 
-  #about-link::first-letter {
-    color: hsl(275, 73%, 65%);
-  }
+#about-link::first-letter {
+  color: hsl(275, 73%, 65%);
+}
 
-  #about-link:hover {
-    color: hsl(275, 73%, 65%);
-  }
+#about-link:hover {
+  color: hsl(275, 73%, 65%);
+}
 
-  #projects-link {
-    display: block;
-    color: hsl(0, 0%, 95%);
-    transition: color 1s;
-  }
+#projects-link {
+  display: block;
+  color: hsl(0, 0%, 95%);
+  transition: color 1s;
+}
 
-  #projects-link::first-letter {
-    color: hsl(130, 73%, 65%);
-  }
+#projects-link::first-letter {
+  color: hsl(130, 73%, 65%);
+}
 
-  #projects-link:hover {
-    color: hsl(130, 73%, 65%);
-  }
+#projects-link:hover {
+  color: hsl(130, 73%, 65%);
+}
 
-  #contact-link {
-    display: block;
-    color: hsl(0, 0%, 95%);
-    transition: color 1s;
-  }
+#contact-link {
+  display: block;
+  color: hsl(0, 0%, 95%);
+  transition: color 1s;
+}
 
-  #contact-link::first-letter {
-    color: hsl(45, 73%, 50%);
-  }
+#contact-link::first-letter {
+  color: hsl(45, 73%, 50%);
+}
 
-  #contact-link:hover {
-    color: hsl(45, 73%, 50%);
-  }
+#contact-link:hover {
+  color: hsl(45, 73%, 50%);
+}
 
-  #intro {
-      margin: 10em 5em 10em 0;
-  }
+#intro {
+  margin: 10em 5em 10em 0;
+}
 
-  #intro-heading {
-    position: relative;
-    font-size: 100px;
-    text-align: right;
-    color: hsl(0, 0%, 25%);
-  }
+#intro-heading {
+  position: relative;
+  font-size: 100px;
+  text-align: right;
+  color: hsl(0, 0%, 25%);
+}
 
-  #sub-text {
-    position: relative;
-    display: block;
-    font-size: 40px;
-    text-align: right;
-    color: hsl(0, 0%, 25%);
-  }
+#sub-text {
+  position: relative;
+  display: block;
+  font-size: 40px;
+  text-align: right;
+  color: hsl(0, 0%, 25%);
+}
 
-  .div-bar {
-    height: 1em;
-    background-color: hsl(0, 0%, 25%);
-  }
+.div-bar {
+  height: 1em;
+  background-color: hsl(0, 0%, 25%);
+}
 
 section {
   padding: 3em;
