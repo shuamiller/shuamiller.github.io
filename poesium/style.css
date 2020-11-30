@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'grenze_gotisch';
+    src: url(../assets/Fonts/GrenzeGotisch-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'rye';
+    src: url(../assets/Fonts/Rye-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'rye', cursive;
+    font-weight: 500;
+}
