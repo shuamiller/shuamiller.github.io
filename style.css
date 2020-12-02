@@ -212,4 +212,5 @@ li {
   color: hsl(0, 0%, 25%);
   font-size: 5em;
   margin: .5em;
+  transition: color 1s;
 }
