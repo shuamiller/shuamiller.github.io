@@ -202,3 +202,14 @@ li {
   height: 12em;
   background-color: hsl(0, 0%, 25%);
 }
+
+#contact-div {
+  display: flex;
+  justify-content: center;
+}
+
+.fa-wix, .fa-hackerrank, .fa-github-square {
+  color: hsl(0, 0%, 25%);
+  font-size: 5em;
+  margin: .5em;
+}
