@@ -214,3 +214,7 @@ li {
   margin: .5em;
   transition: color 1s;
 }
+
+:hover.fa-wix, :hover.fa-hackerrank, :hover.fa-github-square {
+  color: hsl(213, 73%, 65%);
+}
