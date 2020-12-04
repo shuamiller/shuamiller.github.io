@@ -218,3 +218,25 @@ li {
 :hover.fa-wix, :hover.fa-hackerrank, :hover.fa-github-square {
   color: hsl(213, 73%, 65%);
 }
+
+#email-div {
+  background-color: aquamarine;
+  display: block;
+  position: relative;
+  margin: auto;
+  height: 3em;
+  width: 8em;
+  text-align: center;
+}
+
+#email-link {
+  margin: auto;
+}
+
+#overlay {
+  background-color: hsla(0, 0%, 0%, 0.5);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
