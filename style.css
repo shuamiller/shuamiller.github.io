@@ -133,7 +133,7 @@ section {
 
 .section-heading {
   font-size: 3em;
-  margin-bottom: .5em;
+  margin-bottom: 1em;
   color: hsl(213, 73%, 65%);
 }
 
@@ -144,8 +144,13 @@ section {
   color: hsl(0, 0%, 25%);
 }
 
+#about-heading {
+  margin-bottom: .5em;
+}
+
 #about-div {
   display: flex;
+  margin: 0;
 }
 
 #text-div {
@@ -158,6 +163,10 @@ section {
   line-height: 1.25em;
   margin-bottom: 1em;
   text-align: justify;
+}
+
+#last-about-text {
+  margin-bottom: 0;
 }
 
 #prof-heading {
@@ -181,72 +190,12 @@ li {
   margin-bottom: .25em;
 }
 
-#projects-div {
-  display: flex;
-  justify-content: space-around;
-}
-
-.projects-heading {
-  text-align: center;
-  margin-bottom: 1em;
-}
-
-.project-image {
-  display: block;
-  border-radius: .5em;
-  width: 12em;
-  margin: auto;
-}
-
-#black-box {
-  height: 12em;
-  background-color: hsl(0, 0%, 25%);
-}
-
-#contact-div {
-  display: flex;
-  justify-content: center;
-}
-
-.fa-wix, .fa-hackerrank, .fa-github-square {
-  color: hsl(0, 0%, 25%);
-  font-size: 5em;
-  margin: .5em;
-  transition: color 1s;
-}
-
-:hover.fa-wix, :hover.fa-hackerrank, :hover.fa-github-square {
-  color: hsl(213, 73%, 65%);
-}
-
-#email-div {
-  background-color: aquamarine;
-  display: block;
-  position: relative;
-  margin: auto;
-  height: 3em;
-  width: 8em;
-  text-align: center;
-}
-
-#email-link {
-  margin: auto;
-}
-
-#overlay {
-  background-color: hsla(0, 0%, 0%, 0.5);
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  z-index: 10;
-}
-
 #gallery {
   max-width: 600px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10em;
+  margin-bottom: 5em;
 }
 
 .slides {
@@ -293,4 +242,65 @@ li {
   padding-bottom: 1em;
   width: 100%;
   text-align: center;
+}
+
+#projects-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects-heading {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.project-image {
+  display: block;
+  border-radius: .5em;
+  width: 12em;
+  margin: auto;
+}
+
+#black-box {
+  height: 12em;
+  background-color: hsl(0, 0%, 25%);
+}
+
+#contact-div {
+  display: flex;
+  justify-content: center;
+}
+
+.fa-wix, .fa-hackerrank, .fa-github-square {
+  color: hsl(0, 0%, 25%);
+  font-size: 5em;
+  margin: .5em;
+  transition: color 1s;
+}
+
+.fa-wix {
+  position: relative;
+  right: 5px;
+}
+
+:hover.fa-wix, :hover.fa-hackerrank, :hover.fa-github-square {
+  color: hsl(213, 73%, 65%);
+}
+
+#email-div {
+  background-color: hsl(213, 73%, 65%);
+  display: block;
+  position: relative;
+  padding-top: 1em;
+  margin: auto;
+  height: 3em;
+  width: 8em;
+  text-align: center;
+  border-radius: .25em;
+}
+
+#email-link {
+  color: hsl(0, 0%, 95%);
+  text-decoration: none;
+  line-height: 1.2em;
 }
