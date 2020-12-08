@@ -44,6 +44,12 @@ a {
     
 }
 
+h2 {
+    color: hsl(213, 73%, 65%);
+    margin-bottom: 1em;
+    font-family: 'Montserrat';
+}
+
 p {
     color: white;
     font-family: 'Montserrat';
