@@ -240,3 +240,57 @@ li {
   height: 100%;
   z-index: 10;
 }
+
+#gallery {
+  max-width: 600px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10em;
+}
+
+.slides {
+  margin: 0;
+}
+
+.slide-img {
+  margin: 0;
+}
+
+.arrow-buttons {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  background-color: hsl(0, 0%, 25%);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-style: none;
+  border-radius: 0 3px 3px 0;
+}
+
+.right-button {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.arrow-buttons:hover {
+  background-color: hsl(213, 73%, 65%);
+}
+
+.caption {
+  background-color: hsl(0, 0%, 25%);
+  color: #f2f2f2;
+  font-size: 1em;
+  position: relative;
+  bottom: 4px;
+  margin: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 100%;
+  text-align: center;
+}
