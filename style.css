@@ -259,6 +259,14 @@ li {
   border-radius: .5em;
   width: 12em;
   margin: auto;
+  margin-bottom: .5em;
+}
+
+.project-status {
+  font-family: 'rokkittregular';
+  text-align: center;
+  font-style: italic;
+  font-size: 1.25em;
 }
 
 #black-box {
